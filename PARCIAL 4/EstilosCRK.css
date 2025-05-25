@@ -1,0 +1,97 @@
+body {
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+nav {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+    width: auto;
+    background-color: rgb(150, 25, 25);
+  }
+
+  #novedades {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: #f7b765;
+    color: #000000;
+   }
+
+--------------------
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .parallax-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .parallax-item h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .parallax-itemX {
+    padding: AUTO;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .parallax-itemX:first-child {
+    background: #d89947;
+
+
+
+    min-height: 100px;
+  }
+
+  .parallax-item:first-child {
+    background: url("https://wallpapercave.com/wp/wp9086101.jpg");
+    background-size: cover;
+
+  }
+  
+  .parallax-item:nth-child(2) {
+    background: #35befd;
+  }
+  
+  .parallax-item:nth-child(3) {
+    background: url("https://static.wikia.nocookie.net/cookierunkingdom/images/2/25/Castle_in_the_sky_cutscene_9.jpg/revision/latest/scale-to-width-down/4048?cb=20240921162810");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax Effect for DIV 3 */
+    min-height: 1000px;
+  }
+  
+  .parallax-item:nth-child(4) {
+    background: #1565c0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .parallax-item h2 {
+      font-size: 1.5rem;
+    }
+  }
